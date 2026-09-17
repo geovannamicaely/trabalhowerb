@@ -1,99 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio - Geovanna</title>
-  <link rel="stylesheet" href="./index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skins</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <script src="./assets/js/index.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section id="cadastro">
+        <form action="#">
+          <h2>Cadastro</h2>
 
-<body>
+          <input
+            type="text"
+            maxlength="10"
+            placeholder="usuario"
+            required
+            class="campo"
+            name="fusuario"
+          />
 
-  <header class="header">
-    <div class="container">
-      <h1>Portfólio de Programação</h1>
-      <p>Estudante de Desenvolvimento e Tecnologia 💻</p>
-    </div>
-  </header>
+          <input
+            type="email"
+            maxlength="70"
+            placeholder="E-mail"
+            required
+            class="campo"
+            name="femail"
+          />
 
-  <main>
+          <input
+            type="password"
+            maxlength="12"
+            minlength="8"
+            placeholder="Senha"
+            required
+            class="campo"
+            name="fsenha"
+          />
 
-    <section class="card perfil">
-      <h2>💗 Sobre mim</h2>
-      <p>
-        Olá! Meu nome é Geovanna e estou cursando o Ensino Médio com Técnico em Tecnologia da Informação (TI).
-        Estou aprendendo programação e desenvolvimento web, com foco em HTML, CSS e JavaScript.
-      </p>
-      <p>
-        Tenho interesse em criar sites, sistemas e aplicativos, e estou sempre buscando evoluir minhas habilidades
-        na área da tecnologia.
-      </p>
-    </section>
+          <input
+            type="password"
+            maxlength="12"
+            minlength="8"
+            placeholder="Senha"
+            required
+            class="campo"
+            name="fsenha2"
+          />
 
-    <section class="card">
-      <h2>🎓 Formação</h2>
-      <p>
-        Ensino Médio integrado ao curso Técnico em Tecnologia da Informação (TI) — em andamento.
-      </p>
-    </section>
+          <button class="campo botao">Cadastrar</button>
+          <a href="#" class="alternar">Já tem conta? Entre!</a>
+        </form>
+      </section>
 
-    <section class="card">
-      <h2>💻 Habilidades</h2>
-      <div class="tags">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript (básico)</span>
-        <span>Lógica de Programação</span>
-        <span>Git e GitHub</span>
-        <span>Desenvolvimento Web</span>
-      </div>
-    </section>
+      <section id="login">
+        <form action="./home.html">
+          <h2>Login</h2>
 
-    <section class="card">
-      <h2>🌸 Projetos</h2>
+          <input
+            type="email"
+            maxlength="70"
+            placeholder="E-mail"
+            required
+            class="campo"
+            name="femail"
+          />
 
-      <div class="project">
-        <h3>Calculadora Web</h3>
-        <p>Projeto simples para operações matemáticas utilizando HTML, CSS e JavaScript.</p>
-      </div>
+          <input
+            type="password"
+            maxlength="12"
+            minlength="8"
+            placeholder="Senha"
+            required
+            class="campo"
+            name="fsenha"
+          />
 
-      <div class="project">
-        <h3>Site Pessoal</h3>
-        <p>Desenvolvimento de um site para apresentação pessoal e habilidades.</p>
-      </div>
-
-      <div class="project">
-        <h3>Lista de Tarefas</h3>
-        <p>Aplicação para organização de atividades diárias com JavaScript.</p>
-      </div>
-
-    </section>
-
-    <section class="card">
-      <h2>🎯 Objetivos</h2>
-      <p>
-        Meu objetivo é me tornar uma desenvolvedora web, aprimorar meus conhecimentos em programação
-        e futuramente trabalhar na área de tecnologia criando soluções digitais.
-      </p>
-    </section>
-
-    <section class="card contato">
-      <h2>📩 Contato</h2>
-      <p>Email: <b>35221@Raphaeldisanto.com.br</b></p>
-      <p>
-        GitHub:
-        <a href="https://github.com/geovanna" target="_blank">
-          github.com/geovanna
-        </a>
-      </p>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>Feito com 💗 por Geovanna • 2026</p>
-  </footer>
-
-</body>
+          <button class="campo botao">Login</button>
+          <a href="#" class="alternar">Criar Conta</a>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
