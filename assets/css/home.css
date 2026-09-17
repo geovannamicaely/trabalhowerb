@@ -12,7 +12,7 @@ main {
 header {
     width: 100%;
     height: 20vh;
-    background: #000;
+    background: #171129;
 
     display: flex;
     justify-content: center;
@@ -20,8 +20,8 @@ header {
 }
 
 header img {
-    width: 180px;
-    height: auto;
+    width: 100%;
+    height: 20VH;
     object-fit: contain;
 }
 
@@ -36,11 +36,11 @@ section {
 }
 
 #cs2 {
-    background: #1A1A1A;
+    background: #171129;
 }
 
 #valorant {
-    background: #2B2B2B;
+    background: #171129;
 }
 
 .skins {
@@ -70,5 +70,5 @@ section {
 footer {
     width: 100%;
     height: 10vh;
-    background: #42d0ff;
+    background: #171129;
 }
